@@ -78,10 +78,12 @@ main = Tk()
 #setting Title
 main.title("Alpha Youtube Downloader")   
 #setting icon
-main.iconbitmap(r'C:\\Users\\TANMOY DAS\\Desktop\\Folders\\AlphaYtd\\logo.ico')
+main.iconbitmap(r'provide the path of .ico file')
+#main.iconbitmap(r'C:\\Users\\TANMOY DAS\\Desktop\\Folders\\AlphaYtd\\logo.ico')
 main.geometry("500x600")
 #heading Icon
-file = PhotoImage(file=r'C:\\Users\\TANMOY DAS\\Desktop\\Folders\\AlphaYtd\\logo.png')
+file = PhotoImage(file=r'provide the path of .ico file')
+#file = PhotoImage(file=r'C:\\Users\\TANMOY DAS\\Desktop\\Folders\\AlphaYtd\\logo.png')
 headingIcon = Label(main,image=file)
 headingIcon.pack(side=TOP, pady=5)
 #instruction
